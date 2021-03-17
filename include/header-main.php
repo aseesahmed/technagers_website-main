@@ -5,8 +5,7 @@
                 <div class="inner-container clearfix">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.php" title="Technagers - IT Services | Bussiness Solutions"><img
-                                    src="images/logo.png" id="thm-logo" alt="Technagers - IT Services | Bussiness Solutions"
+                        <div class="logo"><a href="index.php" title="Technagers - IT Services | Bussiness Solutions"><img src="images/logo.png" id="thm-logo" alt="Technagers - IT Services | Bussiness Solutions"
                                     title="Technagers - IT Services | Bussiness Solutions"></a></div>
                     </div>
                     <div class="nav-outer clearfix">
@@ -74,15 +73,9 @@
 
                     <div class="other-links clearfix">
                         <!-- cart btn -->
-                        <div class="cart-btn">
-                            <a href="cart.html" class="theme-btn cart-toggler"><span
-                                    class="flaticon-shopping-cart"></span></a>
-                        </div>
+                        
                         <!--Search Btn-->
-                        <div class="search-btn">
-                            <button type="button" class="theme-btn search-toggler"><span
-                                    class="flaticon-loupe"></span></button>
-                        </div>
+                        
                         <!--<div class="link-box">
                             <div class="call-us">
                                 <a class="link" href="tel:6668880000">

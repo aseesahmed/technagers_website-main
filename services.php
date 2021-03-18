@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
+<title>Services</title>
 <?php include('include/head.php'); ?>
+
     <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="description" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="keywords" content="software, website, web design, ecommerce, web development, website solution, software management, finance software, ecommerce sites, mobile app development software, secure software, application software, app making software, business development, software solution provider, graphic, graphic designing, logo, logo design, html, website banner, seo, search engine optimization, content writing, technology services, technology solutions, technology skills, technology tools, android development, php development, laravel development, codeignitor development, technology applications, website development, website engineering">
@@ -152,7 +154,7 @@
         <section class="we-work-section">
             <div class="auto-container">
                 <div class="sec-title centered">
-                    <h2>We Work With industries<span class="dot">.</span></h2>
+                    <h2>We Work with industries<span class="dot">.</span></h2>
                 </div>
                 <!--Work Tabs-->
                 <div class="work-tabs tabs-box">
@@ -160,8 +162,8 @@
                     <!--Tab Btns-->
                     <ul class="tab-btns tab-buttons clearfix">
                         <li data-tab="#tab-1" class="tab-btn active-btn"><span>Our Vision</span></li>
-                        <li data-tab="#tab-2" class="tab-btn"><span>awesome support</span></li>
-                        <li data-tab="#tab-3" class="tab-btn"><span>1 click demo install</span></li>
+                        <li data-tab="#tab-2" class="tab-btn"><span>Awesome Support</span></li>
+                        <li data-tab="#tab-3" class="tab-btn"><span>Best Innovations</span></li>
                     </ul>
 
                     <!--Tabs Container-->
@@ -181,10 +183,7 @@
                                     <div class="inner">
                                         <div class="content">
                                             <div class="text">
-                                                <p>There are many variations of passages of lorem ipsum available, but
-                                                    the majority have suffered alteration in some form, by injected
-                                                    humour, or randomised words which don't look even slightly
-                                                    believable.</p>
+                                                <p>Together with planning and creating your web nearness, we propose business-oriented arrangements that fit your needs and talk volumes of your values as a brand. With experienced web designers and advanced artisans, you get a state-of-the-art arrangement with a cutting-edge offer that locks in more individuals online.</p>
                                                 <p class="theme_color">If you are going to use a passage of Lorem Ipsum,
                                                     you need to be sure there isn't anything embarrassing hidden in the
                                                     middle of text. </p>

@@ -3,6 +3,7 @@
 
 <head>
     <title>Portfolio</title>
+    <?php include('include/head.php'); ?>
     <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="description" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="keywords" content="software, website, web design, ecommerce, web development, website solution, software management, finance software, ecommerce sites, mobile app development software, secure software, application software, app making software, business development, software solution provider, graphic, graphic designing, logo, logo design, html, website banner, seo, search engine optimization, content writing, technology services, technology solutions, technology skills, technology tools, android development, php development, laravel development, codeignitor development, technology applications, website development, website engineering">

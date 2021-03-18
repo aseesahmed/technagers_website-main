@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-    <title>Technagers - IT Services | Bussiness Solutions</title>
+<!--     <title>Technagers - IT Services | Bussiness Solutions</title> -->
     <!-- Stylesheets -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link

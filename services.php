@@ -12,50 +12,7 @@
 
     <div class="page-wrapper">
 
-        <div class="style-switcher">
-            <a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a>
-            <h3>Color Skins</h3>
-            <ul id="styleOptions" title="Switch Color">
-                <li>
-                    <a href="" data-theme="color-default" class="color-default">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-2" class="color-2">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-3" class="color-3">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-4" class="color-4">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-5" class="color-5">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-6" class="color-6">
-
-                    </a>
-                </li>
-            </ul>
-            <div class="language-feature">
-                <button class="ltr-switcher" data-href="#googtrans(en|en)">LTR</button><!-- /.ltr-switcher -->
-                <button class="rtl-switcher" data-href="#googtrans(en|ar)">RTL</button><!-- /.rtl-switcher -->
-            </div><!-- /.language-feature -->
-            <div class="layout-feature">
-                <a href="#" class="dark-switcher">Dark</a>
-                <button class="boxed-switcher">Boxed</button><!-- /.ltr-switcher -->
-            </div><!-- /.language-feature -->
-        </div>
+       
         <!-- Preloader -->
         <div class="preloader">
             <div class="icon"></div>
@@ -63,14 +20,13 @@
 
         <!-- Main Header -->
         <header class="main-header header-style-one">
-
             <!-- Header Upper -->
             <?php include('include/header-main.php'); ?>
             <!--End Header Upper-->
-
-
         </header>
         <!-- End Main Header -->
+
+        
 
         <!--Mobile Menu-->
         <?php include('include/mobile-menu.php'); ?>
@@ -111,10 +67,10 @@
                             data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
-                                <div class="icon-box"><span class="flaticon-vector"></span></div>
-                                <h5><a href="#">Website <br>Designing</a></h5>
-                                <div class="text">Technagers make your website user friendly with new look and amazing experience.</div>
-                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                                <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                <h5><a href="#">Website <br>Development</a></h5>
+                                <div class="text">Technagers focusses on website design and development services.</div>
+                                <div class="link-box"><a href="web-development.php"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
 
@@ -123,9 +79,9 @@
                             data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
-                                <div class="icon-box"><span class="flaticon-digital"></span></div>
-                                <h5><a href="#">MARKETING <br>STRATEGY</a></h5>
-                                <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                <div class="icon-box"><span class="flaticon-vector"></span></div>
+                                <h5><a href="#">Graphic <br>Designing</a></h5>
+                                <div class="text">Technagers resolute design professionals work to portray the image perfectly.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -136,8 +92,8 @@
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
                                 <div class="icon-box"><span class="flaticon-instant-camera"></span></div>
-                                <h5><a href="#">Digital <br>Products</a></h5>
-                                <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                <h5><a href="#">Digital <br>Marketing</a></h5>
+                                <div class="text">Digital marketing and we make sure we do it right.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -148,22 +104,43 @@
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
                                 <div class="icon-box"><span class="flaticon-monitor"></span></div>
-                                <h5><a href="#">Website <br>Development</a></h5>
+                                <h5><a href="#">Seo & Content<br>Writing</a></h5>
                                 <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
-
-                        <div class="service-block-two col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp"
+                        <!--Service Block-->
+                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
+                            data-wow-delay="900ms" data-wow-duration="1500ms">
+                            
+                        </div>
+                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
                             data-wow-delay="900ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
                                 <div class="icon-box"><span class="flaticon-monitor"></span></div>
-                                <h5><a href="#">Website <br>Development</a></h5>
+                                <h5><a href="#">App<br>Development</a></h5>
                                 <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
+                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
+                            data-wow-delay="900ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <div class="bottom-curve"></div>
+                                <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                <h5><a href="#">UI/UX<br>Designing</a></h5>
+                                <div class="text">Our expert professional custom web designers create a design that enhances users experience on both desktop and mobile portal.</div>
+                                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                            </div>
+                        </div>
+                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
+                            data-wow-delay="900ms" data-wow-duration="1500ms">
+                            
+                        </div>
+
+                       
+                        
 
                     </div>
                 </div>
@@ -171,71 +148,6 @@
         </section>
 
         <!--Services Section-->
-        <section class="services-section">
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <!--Title Block-->
-                    <div class="title-block col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="inner">
-                            <div class="sec-title">
-                                <h2>We Shape the Perfect <br>Solutions<span class="dot">.</span></h2>
-                                <div class="lower-text">We are committed to providing our customers with exceptional
-                                    service while offering our employees the best training.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-responsive"></span></div>
-                            <h6><a href="#">Website <br>Development</a></h6>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-computer"></span></div>
-                            <h6><a href="#">graphic <br>designing</a></h6>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-digital-marketing"></span></div>
-                            <h6><a href="#">digital <br>marketing</a></h6>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-development"></span></div>
-                            <h6><a href="#">seo & content <br>writing</a></h6>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-app-development"></span></div>
-                            <h6><a href="#">App <br>Development</a></h6>
-                        </div>
-                    </div>
-                    <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="bottom-curve"></div>
-                            <div class="icon-box"><span class="flaticon-ui"></span></div>
-                            <h6><a href="#">Ui/UX <br>designing</a></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- We Work Section -->
         <section class="we-work-section">
             <div class="auto-container">
@@ -247,7 +159,7 @@
 
                     <!--Tab Btns-->
                     <ul class="tab-btns tab-buttons clearfix">
-                        <li data-tab="#tab-1" class="tab-btn active-btn"><span>Latest technology</span></li>
+                        <li data-tab="#tab-1" class="tab-btn active-btn"><span>Our Vision</span></li>
                         <li data-tab="#tab-2" class="tab-btn"><span>awesome support</span></li>
                         <li data-tab="#tab-3" class="tab-btn"><span>1 click demo install</span></li>
                     </ul>

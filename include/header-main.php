@@ -5,7 +5,8 @@
                 <div class="inner-container clearfix">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.php" title="Technagers - IT Services | Bussiness Solutions"><img src="images/logo.png" id="thm-logo" alt="Technagers - IT Services | Bussiness Solutions"
+                        <div class="logo"><a href="index.php" title="Technagers - IT Services | Bussiness Solutions"><img
+                                    src="images/logo.png" id="thm-logo" alt="Technagers - IT Services | Bussiness Solutions"
                                     title="Technagers - IT Services | Bussiness Solutions"></a></div>
                     </div>
                     <div class="nav-outer clearfix">
@@ -18,7 +19,9 @@
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.php">Services</a></li>
+                                    <li><a href="portfolio.php">Portfolio</a></li>
+                                    <!-- <li><a href="about.html">About Us</a></li>
                                     <li class="dropdown"><a href="team.html">Pages</a>
                                         <ul>
                                             <li><a href="pricing.html">Our Pricing <span>new</span></a></li>
@@ -65,7 +68,7 @@
                                             <li><a href="blog-single.html">Blog Single</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html">Contact</a></li> -->
                                 </ul>
                             </div>
                         </nav>
@@ -73,9 +76,15 @@
 
                     <div class="other-links clearfix">
                         <!-- cart btn -->
-                        
+                        <!-- <div class="cart-btn">
+                            <a href="cart.html" class="theme-btn cart-toggler"><span
+                                    class="flaticon-shopping-cart"></span></a>
+                        </div> -->
                         <!--Search Btn-->
-                        
+                        <!-- <div class="search-btn">
+                            <button type="button" class="theme-btn search-toggler"><span
+                                    class="flaticon-loupe"></span></button>
+                        </div> -->
                         <!--<div class="link-box">
                             <div class="call-us">
                                 <a class="link" href="tel:6668880000">

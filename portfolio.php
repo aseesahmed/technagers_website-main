@@ -2,88 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Linoor - DIgital Agency HTML Template | Portfolio</title>
-    <!-- Stylesheets -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/owl.css" rel="stylesheet">
-    <link href="css/flaticon.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/jquery-ui.css" rel="stylesheet">
-    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
-    <link href="css/custom-animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- rtl css -->
-    <link href="css/rtl.css" rel="stylesheet">
-    <!-- Responsive File -->
-    <link href="css/responsive.css" rel="stylesheet">
-
-    <!-- Color css -->
-    <link rel="stylesheet" id="jssDefault" href="css/colors/color-default.css">
-
-    <link rel="shortcut icon" href="images/favicon.png" id="fav-shortcut" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" id="fav-icon" type="image/x-icon">
-
-    <!-- Responsive Settings -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <?php include('include/head.php'); ?>
+    <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
+    <meta name="description" content="Technagers | Technology Managers | IT Services | Business Solutions">
+    <meta name="keywords" content="software, website, web design, ecommerce, web development, website solution, software management, finance software, ecommerce sites, mobile app development software, secure software, application software, app making software, business development, software solution provider, graphic, graphic designing, logo, logo design, html, website banner, seo, search engine optimization, content writing, technology services, technology solutions, technology skills, technology tools, android development, php development, laravel development, codeignitor development, technology applications, website development, website engineering">
 </head>
 
 <body>
 
     <div class="page-wrapper">
 
-        <!-- style switcher -->
-        <div class="style-switcher">
-            <a href="#" id="switcher-toggler"><i class="fa fa-cog"></i></a>
-            <h3>Color Skins</h3>
-            <ul id="styleOptions" title="Switch Color">
-                <li>
-                    <a href="" data-theme="color-default" class="color-default">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-2" class="color-2">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-3" class="color-3">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-4" class="color-4">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-5" class="color-5">
-
-                    </a>
-                </li>
-                <li>
-                    <a href="" data-theme="color-6" class="color-6">
-
-                    </a>
-                </li>
-            </ul>
-            <div class="language-feature">
-                <button class="ltr-switcher" data-href="#googtrans(en|en)">LTR</button><!-- /.ltr-switcher -->
-                <button class="rtl-switcher" data-href="#googtrans(en|ar)">RTL</button><!-- /.rtl-switcher -->
-            </div><!-- /.language-feature -->
-            <div class="layout-feature">
-                <a href="#" class="dark-switcher">Dark</a>
-                <button class="boxed-switcher">Boxed</button><!-- /.ltr-switcher -->
-            </div><!-- /.language-feature -->
-        </div>
         <!-- Preloader -->
         <div class="preloader">
             <div class="icon"></div>
@@ -286,7 +214,7 @@
                     <!--Filter-->
                     <div class="filters centered clearfix">
                         <ul class="filter-tabs filter-btns clearfix">
-                            <li class="active filter" data-role="button" data-filter="all">OUR LIVE PROJECTS<sup>[6]</sup></li>
+                            <li class="active filter" data-role="button" data-filter="all">OUR PROJECTS<sup>[6]</sup></li>
                             <!-- <li class="filter" data-role="button" data-filter=".branding">Branding<sup>[3]</sup></li>
                             <li class="filter" data-role="button" data-filter=".illustration">illustration<sup>[3]</sup>
                             </li>
@@ -298,118 +226,167 @@
                     </div>
                     <div class="filter-list row">
 
-                        <!-- Gallery Item -->
+                        <!-- Gallery Item 1 -->
+
+
+                        <!-- Gallery Item 4-->
                         <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/B1.jpg" alt=""></figure>
-                                <a href="images/gallery/B1.jpg" class="lightbox-image overlay-box"
+                                <figure class="image"><img src="images/gallery/F1.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F1.jpg" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a>
+                                <div class="cap-box">
+                                    <div class="cat"><span>Website</span></div>
+                                    <div class="title">
+                                        <h5><a href="http://saltcreekapparel.com/" target="_blank">Salt Creek Apparel</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 5-->
+                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/gallery/F2.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F2.jpg" class="lightbox-image overlay-box"
                                     data-fancybox="gallery"></a>
                                 <div class="cap-box">
                                     <div class="cap-inner">
                                         <div class="cat"><span>Website</span></div>
                                         <div class="title">
-                                            <h5><a href="https://atta-ur-rahman.com/">Dr. Atta-ur-Rahman/</a></h5>
+                                            <h5><a href="https://hewfoundation.org.pk/" target="_blank">Hew Foundation/</a></h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Gallery Item -->
+
+                        <!-- Gallery Item 6-->
                         <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/B1.jpg" alt=""></figure>
-                                <a href="images/gallery/B1.jpg" class="lightbox-image overlay-box"
+                                <figure class="image"><img src="images/gallery/F3.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F3.jpg" class="lightbox-image overlay-box"
                                     data-fancybox="gallery"></a>
                                 <div class="cap-box">
                                     <div class="cap-inner">
                                         <div class="cat"><span>Website</span></div>
                                         <div class="title">
-                                            <h5><a href="https://atta-ur-rahman.com/">Dr. Atta-ur-Rahman/</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                                <!-- Gallery Item -->
-                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/B1.jpg" alt=""></figure>
-                                <a href="images/gallery/B1.jpg" class="lightbox-image overlay-box"
-                                    data-fancybox="gallery"></a>
-                                <div class="cap-box">
-                                    <div class="cap-inner">
-                                        <div class="cat"><span>Website</span></div>
-                                        <div class="title">
-                                            <h5><a href="https://atta-ur-rahman.com/">Dr. Atta-ur-Rahman/</a></h5>
+                                            <h5><a href="https://www.sedigitizing.com/" target="_blank">Sedigitizing</a></h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Gallery Item -->
+
+                        <!-- Gallery Item 7-->
+                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/gallery/F4.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F4.jpg" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a>
+                                <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Website</span></div>
+                                        <div class="title">
+                                            <h5><a href="https://www.icondigitizers.com/" target="_blank">icon digitizers/</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Gallery Item 8-->
+                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/gallery/F5.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F5.jpg" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a>
+                                <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Website</span></div>
+                                        <div class="title">
+                                            <h5><a href="http://portal.activeapparelinc.com/" target="_blank">Active Apparelinc/</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+
+                        <!-- Gallery Item 7-->
+                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/gallery/F6.jpg" alt="" style="width:350px; height:300px;"></figure>
+                                <a href="images/gallery/F6.jpg" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a>
+                                <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Website</span></div>
+                                        <div class="title">
+                                            <h5><a href="https://dikotomy.com/" target="_blank">dikotomy</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                            <div class="inner-box">
+                                <figure class="image"><img src="images/gallery/B1.jpg" alt="" style="width:350px; height:300px;" ></figure>
+                                <a href="images/gallery/B1.jpg" class="lightbox-image overlay-box"
+                                    data-fancybox="gallery"></a>
+                                <div class="cap-box">
+                                    <div class="cap-inner">
+                                        <div class="cat"><span>Website</span></div>
+                                        <div class="title">
+                                            <h5><a href="https://atta-ur-rahman.com/" target="_blank">Dr. Atta-ur-Rahman</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gallery Item 2-->
                         <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/A1.jpg" alt=""></figure>
-                                <a href="images/gallery/A1.jpg" class="lightbox-image overlay-box"
+                                <figure class="image"><img src="images/gallery/B3.jpg" alt="" style="width:350px; height:300px;" ></figure>
+                                <a href="images/gallery/B2.jpg" class="lightbox-image overlay-box"
                                     data-fancybox="gallery"></a>
                                 <div class="cap-box">
                                     <div class="cap-inner">
-                                        <div class="cat"><span>Website</span></div>
+                                        <div class="cat"><span>Web Application</span></div>
                                         <div class="title">
-                                            <h5><a href="http://saltcreekapparel.com/">Salt Creek Apparel</a></h5>
+                                            <h5><a href="http://references-check.com/" target="_blank">References Checker</a></h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Gallery Item -->
+                        
+                        <!-- Gallery Item 3-->
                         <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/A2.jpg" alt=""></figure>
-                                <a href="images/gallery/A2.jpg" class="lightbox-image overlay-box"
+                                <figure class="image"><img src="images/gallery/B2.jpg" alt="" style="width:350px; height:300px;" ></figure>
+                                <a href="images/gallery/B3.jpg" class="lightbox-image overlay-box"
                                     data-fancybox="gallery"></a>
                                 <div class="cap-box">
                                     <div class="cap-inner">
-                                        <div class="cat"><span>Website</span></div>
+                                        <div class="cat"><span>Web Application</span></div>
                                         <div class="title">
-                                            <h5><a href="https://hewfoundation.org.pk/">Hew Foundation/</a></h5>
+                                            <h5><a href="https://benthamalerts.com/admin/" target="_blank">Alerting Services</a></h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Gallery Item -->
-                        <div class="gallery-item mix all branding web-design col-lg-4 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <figure class="image"><img src="images/gallery/A3.jpg" alt=""></figure>
-                                <a href="images/gallery/A3.jpg" class="lightbox-image overlay-box"
-                                    data-fancybox="gallery"></a>
-                                <div class="cap-box">
-                                    <div class="cap-inner">
-                                        <div class="cat"><span>Website</span></div>
-                                        <div class="title">
-                                            <h5><a href="portfolio-single.html">Fimlor Experience</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
                     </div>
-                    <div class="more-box">
+<!--                     <div class="more-box">
                         <a class="theme-btn btn-style-one" href="portfolio.html">
                             <i class="btn-curve"></i>
                             <span class="btn-title">Load more work</span>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>

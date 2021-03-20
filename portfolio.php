@@ -173,7 +173,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                        <!-- <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <figure class="image"><img src="images/gallery/B1.jpg" alt="" style="width:350px; height:300px;" ></figure>
                                 <a href="images/gallery/B1.jpg" class="lightbox-image overlay-box"
@@ -187,10 +187,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Gallery Item 2-->
-                        <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12">
+                        <!-- <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <figure class="image"><img src="images/gallery/B3.jpg" alt="" style="width:350px; height:300px;" ></figure>
                                 <a href="images/gallery/B2.jpg" class="lightbox-image overlay-box"
@@ -205,9 +205,9 @@
                                 </div>
                             </div>
                         </div>
-                        
+                         -->
                         <!-- Gallery Item 3-->
-                        <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
+                        <!-- <div class="gallery-item mix all photography web-design col-lg-4 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <figure class="image"><img src="images/gallery/B2.jpg" alt="" style="width:350px; height:300px;" ></figure>
                                 <a href="images/gallery/B3.jpg" class="lightbox-image overlay-box"
@@ -221,7 +221,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 <!--                     <div class="more-box">
                         <a class="theme-btn btn-style-one" href="portfolio.html">

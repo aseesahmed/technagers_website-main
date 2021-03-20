@@ -69,7 +69,7 @@
                             data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
-                                <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                <div class="icon-box"><span class="flaticon-responsive"></span></div>
                                 <h5><a href="#">Website <br>Development</a></h5>
                                 <div class="text">Technagers focusses on website design and development services.</div>
                                 <div class="link-box"><a href="web-development.php"><span class="fa fa-angle-right"></span></a></div>
@@ -83,7 +83,7 @@
                                 <div class="bottom-curve"></div>
                                 <div class="icon-box"><span class="flaticon-vector"></span></div>
                                 <h5><a href="#">Graphic <br>Designing</a></h5>
-                                <div class="text">Technagers resolute design professionals work to portray the image perfectly.</div>
+                                <div class="text">We design professionals work to portray the image perfectly.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
@@ -106,40 +106,34 @@
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
                                 <div class="icon-box"><span class="flaticon-monitor"></span></div>
-                                <h5><a href="#">Seo & Content<br>Writing</a></h5>
-                                <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                <h5><a href="#">Content<br>Writing</a></h5>
+                                <div class="text">We think differently about the content you publish.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
                         <!--Service Block-->
-                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
-                            data-wow-delay="900ms" data-wow-duration="1500ms">
-                            
-                        </div>
-                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
+                        
+                        <div class="service-block-two col-xl-6 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
                             data-wow-delay="900ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
-                                <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                <div class="icon-box"><span class="flaticon-app-development"></span></div>
                                 <h5><a href="#">App<br>Development</a></h5>
-                                <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                <div class="text">We provide a perfect solutions to create value for your business.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
-                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
+                        <div class="service-block-two col-xl-6 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
                             data-wow-delay="900ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <div class="bottom-curve"></div>
-                                <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                <div class="icon-box"><span class="flaticon-ui"></span></div>
                                 <h5><a href="#">UI/UX<br>Designing</a></h5>
-                                <div class="text">Our expert professional custom web designers create a design that enhances users experience on both desktop and mobile portal.</div>
+                                <div class="text">We create a design that enhances best users experience.</div>
                                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                             </div>
                         </div>
-                        <div class="service-block-two col-xl-3 col-lg-10 col-md-6 col-sm-12 wow fadeInUp"
-                            data-wow-delay="900ms" data-wow-duration="1500ms">
-                            
-                        </div>
+                        
 
                        
                         
@@ -162,8 +156,8 @@
                     <!--Tab Btns-->
                     <ul class="tab-btns tab-buttons clearfix">
                         <li data-tab="#tab-1" class="tab-btn active-btn"><span>Our Vision</span></li>
-                        <li data-tab="#tab-2" class="tab-btn"><span>Awesome Support</span></li>
-                        <li data-tab="#tab-3" class="tab-btn"><span>Best Innovations</span></li>
+                        <li data-tab="#tab-2" class="tab-btn"><span>Why Select Us</span></li>
+                        <li data-tab="#tab-3" class="tab-btn"><span>Our Mission</span></li>
                     </ul>
 
                     <!--Tabs Container-->
@@ -172,27 +166,20 @@
                         <!--Tab-->
                         <div class="tab active-tab" id="tab-1">
                             <div class="row clearfix">
-                                <div class="image-col col-lg-5 col-md-6 col-sm-12">
+                            <div class="text-col col-lg-5 col-md-8 col-sm-12">
                                     <div class="inner">
                                         <div class="image">
-                                            <img src="images/resource/featured-image-14.jpg" alt="">
+                                            <img src="images/resource/featured-image-12.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text-col col-lg-7 col-md-6 col-sm-12">
+                                <div class="image-col col-md-5 col-lg-6 col-md-12">
                                     <div class="inner">
                                         <div class="content">
-                                            <div class="text">
-                                                <p>Together with planning and creating your web nearness, we propose business-oriented arrangements that fit your needs and talk volumes of your values as a brand. With experienced web designers and advanced artisans, you get a state-of-the-art arrangement with a cutting-edge offer that locks in more individuals online.</p>
-                                                <p class="theme_color">If you are going to use a passage of Lorem Ipsum,
-                                                    you need to be sure there isn't anything embarrassing hidden in the
-                                                    middle of text. </p>
-                                                <ul>
-                                                    <li>Self-contained, state-of-the-art time clock</li>
-                                                    <li>Scalability of up to 500 employees per time clock</li>
-                                                    <li>The ability to connect up to 32 time clocks</li>
-                                                    <li>Employee self-enrollment</li>
-                                                </ul>
+                                        <div class="text">
+                                                <p>Our vision is to develop in a constant manner and grow as a major IT service provider to become a leading performer, in providing quality Web and Software Development solutions in the competitive global marketplace. Our professional, flexible and integrated process reflects in what we do. We always guide our customers to success. We have the ability to accelerate and quickly share the great work or products of your organization or business.</p>
+                                                <p class="theme_color">The integration of information, design, and technology.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -203,30 +190,20 @@
                         <!--Tab-->
                         <div class="tab" id="tab-2">
                             <div class="row clearfix">
-                                <div class="image-col col-lg-5 col-md-6 col-sm-12">
+                            <div class="text-col col-lg-5 col-md-8 col-sm-12">
                                     <div class="inner">
                                         <div class="image">
                                             <img src="images/resource/featured-image-14.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text-col col-lg-7 col-md-6 col-sm-12">
+                                <div class="image-col col-md-5 col-lg-6 col-md-12">
                                     <div class="inner">
                                         <div class="content">
                                             <div class="text">
-                                                <p>There are many variations of passages of lorem ipsum available, but
-                                                    the majority have suffered alteration in some form, by injected
-                                                    humour, or randomised words which don't look even slightly
-                                                    believable.</p>
-                                                <p class="theme_color">If you are going to use a passage of Lorem Ipsum,
-                                                    you need to be sure there isn't anything embarrassing hidden in the
-                                                    middle of text. </p>
-                                                <ul>
-                                                    <li>Self-contained, state-of-the-art time clock</li>
-                                                    <li>Scalability of up to 500 employees per time clock</li>
-                                                    <li>The ability to connect up to 32 time clocks</li>
-                                                    <li>Employee self-enrollment</li>
-                                                </ul>
+                                                <p>We clearly understand that all customer landscapes are not of same kind. That’s why Technagers sourcing methodology encompasses a clear solution especially crafted to address the clients' issues. We offer a phased approach towards your business drivers and help IT organizations to align their goals towards the overall vision of the business.</p>
+                                                <p class="theme_color">We plan & create versatile apps for everybody no matter what industry or company you have a place to.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -237,30 +214,20 @@
                         <!--Tab-->
                         <div class="tab" id="tab-3">
                             <div class="row clearfix">
-                                <div class="image-col col-lg-5 col-md-6 col-sm-12">
+                            <div class="text-col col-lg-5 col-md-8 col-sm-12">
                                     <div class="inner">
                                         <div class="image">
-                                            <img src="images/resource/featured-image-14.jpg" alt="">
+                                            <img src="images/resource/featured-image-11.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="text-col col-lg-7 col-md-6 col-sm-12">
+                                <div class="image-col col-md-5 col-lg-6 col-md-12">
                                     <div class="inner">
                                         <div class="content">
                                             <div class="text">
-                                                <p>There are many variations of passages of lorem ipsum available, but
-                                                    the majority have suffered alteration in some form, by injected
-                                                    humour, or randomised words which don't look even slightly
-                                                    believable.</p>
-                                                <p class="theme_color">If you are going to use a passage of Lorem Ipsum,
-                                                    you need to be sure there isn't anything embarrassing hidden in the
-                                                    middle of text. </p>
-                                                <ul>
-                                                    <li>Self-contained, state-of-the-art time clock</li>
-                                                    <li>Scalability of up to 500 employees per time clock</li>
-                                                    <li>The ability to connect up to 32 time clocks</li>
-                                                    <li>Employee self-enrollment</li>
-                                                </ul>
+                                                <p>Together with planning and creating your web nearness, we propose business-oriented arrangements that fit your needs and talk volumes of your values as a brand. With experienced web designers and advanced artisans, you get a state-of-the-art arrangement with a cutting-edge offer that locks in more individuals online. Use effective innovations and strong design to construct a web arrangement that fulfills your needs beneath bundled web improvement administrations.</p>
+                                                <p class="theme_color">Client's expectations by going beyond software to provide perfect Web solutions that transform data into knowledge, enabling them to solve their problems.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+<title>Contact</title>
 <?php include('include/head.php'); ?>
 
 <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
@@ -65,7 +66,7 @@
 
                 <div class="upper-info">
                     <div class="row clearfix">
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
+                        <div class="info-block col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <h5>United Arab Emirates</h5>
@@ -79,21 +80,9 @@
                             </div>
                         </div>
 
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <h5>Spain</h5>
-                                <div class="text">
-                                    <ul class="info">
-                                        <li>5 Federal Street Boston</li>
-                                        <li><a href="mailto:needhelp@linoor.com">needhelp@linoor.com</a></li>
-                                        <li><a href="tel:666888000">000 000 000s</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                       
 
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"
+                        <div class="info-block col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <h5>Pakistan</h5>

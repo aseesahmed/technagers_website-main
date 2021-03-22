@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+   
     <?php include('include/head.php'); ?>
     <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="description" content="Technagers | Technology Managers | IT Services | Business Solutions">

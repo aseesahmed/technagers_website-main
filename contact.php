@@ -66,21 +66,21 @@
 
                 <div class="upper-info">
                     <div class="row clearfix">
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
+                        <div class="info-block col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <h5>United Arab Emirates</h5>
                                 <div class="text">
                                     <ul class="info">
-                                        <li>Dubai</li>
+                                        <li><span class="icon flaticon-pin-1"></span> Office # 307, 3rd Floor, Dusseldorf Business Point, Al Barsha Near Mall of the Emirates, Dubai, UAE</li>
                                         <li><a href="mailto:info@technagers.com">info@technagers.com</a></li>
-                                        <li><a href="tel:000000000">000 000 000</a></li>
+                                      <!--  <li><a href="tel:000000000">000 000 000</a></li>-->
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms"
+                        <!--<div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms"
                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <h5>Spain</h5>
@@ -92,17 +92,17 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="info-block col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"
+                        </div>-->
+								
+                        <div class="info-block col-xl-6 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"
                             data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <h5>Pakistan</h5>
                                 <div class="text">
                                     <ul class="info">
-                                        <li>Karachi</li>
+                                        <li><span class="icon flaticon-pin-1"></span> Karachi</li>
                                         <li><a href="mailto:info@technagers.com">info@technagers.com</a></li>
-                                        <li><a href="tel:000000000">000 000 000</a></li>
+                                        <!--  <li><a href="tel:000000000">000 000 000</a></li>-->
                                     </ul>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                         <h2>Write Us a Message<span class="dot">.</span></h2>
                     </div>
                     <div class="default-form">
-                        <form method="post" action="#" id="contact-form">
+                        <form method="post" action="contact.php" id="contact-form">
                             <div class="row clearfix">
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="field-inner">
@@ -164,12 +164,67 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button class="theme-btn btn-style-one">
+                                    <button class="theme-btn btn-style-one" name="submit"> 
                                         <i class="btn-curve"></i>
                                         <span class="btn-title">Send message</span>
                                     </button>
                                 </div>
                             </div>
+<?php
+	include 'db/db_connect.php';
+
+	if (isset($_POST['submit'])) 
+	{
+		$username = !empty($_POST['username']) ? trim($_POST['username']) : null;
+		$email = !empty($_POST['email']) ? trim($_POST['email']) : null;
+		$phone = !empty($_POST['phone']) ? trim($_POST['phone']) : null;
+		$subject = !empty($_POST['subject']) ? trim($_POST['subject']) : null;
+		$message = !empty($_POST['message']) ? trim($_POST['message']) : null;
+
+		
+		// echo $username."<br/>";
+		// echo $email."<br/>"; 
+		// echo $phone."<br/>"; 
+		// echo $subject."<br/>"; 
+		// echo $message."<br/>";
+
+		//Prepare our INSERT statement.
+		$sql = "INSERT INTO 
+		 			visitor (username, email, phone, subject, message) 
+				VALUES 
+					(:username, :email, :phone, :subject, :message)";
+
+		$stmt = $conn->prepare($sql);
+
+		//Bind our variables.
+		$stmt->bindValue(':username', $username);
+		$stmt->bindValue(':email', $email);
+		$stmt->bindValue(':phone', $phone);
+		$stmt->bindValue(':subject', $subject);
+		$stmt->bindValue(':message', $message);
+
+		//Execute the statement and insert the new account.
+		$result = $stmt->execute();
+		
+		
+		if($result > 0)
+		{
+			$to = $email;
+			$headers = "MIME-Version: 1.0"."\r\n";
+				$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
+				$headers .= 'From: Technagers <info@technagers.com>'."\r\n";
+				
+																				
+			mail($to, $subject, $message, $headers);
+
+			//please comment die(); after checking	
+			//echo $message;
+		}
+
+		echo "<br/> Message Sent";
+	}
+?>
+
                         </form>
                     </div>
                 </div>

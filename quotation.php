@@ -63,7 +63,7 @@
                         <h2>Thank you for your interest<span class="dot">...</span></h2>
                     </div>
                     <div class="default-form">
-                        <form method="post" action="scripts/authentication.php" id="contact-form">
+                        <form method="post" action="quotation.php" id="contact-form">
                             <div class="row clearfix">
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="field-inner">
@@ -160,13 +160,77 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button class="theme-btn btn-style-one">
+                                    <button class="theme-btn btn-style-one" name="submit">
                                         <i class="btn-curve"></i>
-                                        <input class="btn-title" type="submit" name="quotation_submit" value="Submit">
+                                        <input class="btn-title" type="submit"  value="Submit">
                                         <!-- <span class="btn-title">Submit</span> -->
                                     </button>
                                 </div>
                             </div>
+                            <?php
+                            
+	include 'db/db_connect.php';
+
+	if (isset($_POST['submit'])) 
+	{
+		$quotation_username = !empty($_POST['quotation_username']) ? trim($_POST['quotation_username']) : null;
+		$quotation_email = !empty($_POST['quotation_email']) ? trim($_POST['quotation_email']) : null;
+		$quotation_phone_number = !empty($_POST['quotation_phone_number']) ? trim($_POST['quotation_phone_number']) : null;
+		$quotation_company = !empty($_POST['quotation_company']) ? trim($_POST['quotation_company']) : null;
+		$quotation_website = !empty($_POST['quotation_website']) ? trim($_POST['quotation_website']) : null;
+		$quotation_budget = !empty($_POST['quotation_budget']) ? trim($_POST['quotation_budget']) : null;
+		$quotation_website = !empty($_POST['quotation_website']) ? trim($_POST['quotation_website']) : null;
+		$quotation_address = !empty($_POST['quotation_address']) ? trim($_POST['quotation_address']) : null;
+		$quotation_message = !empty($_POST['quotation_message']) ? trim($_POST['quotation_message']) : null;
+
+		
+		echo $quotation_username."<br/>";
+		echo $quotation_email."<br/>"; 
+		echo $quotation_phone_number."<br/>"; 
+		echo $quotation_company."<br/>"; 
+		echo $quotation_website."<br/>";
+		echo $quotation_budget."<br/>";
+		echo $quotation_website."<br/>";
+		echo $quotation_message."<br/>";
+
+		//Prepare our INSERT statement.
+
+
+		$sql = "INSERT INTO 
+		 			visitor (username, email, phone, subject, message) 
+				VALUES 
+					(:username, :email, :phone, :subject, :message)";
+
+		$stmt = $conn->prepare($sql);
+
+		//Bind our variables.
+		$stmt->bindValue(':username', $username);
+		$stmt->bindValue(':email', $email);
+		$stmt->bindValue(':phone', $phone);
+		$stmt->bindValue(':subject', $subject);
+		$stmt->bindValue(':message', $message);
+
+		//Execute the statement and insert the new account.
+		$result = $stmt->execute();
+		
+		
+		if($result > 0)
+		{
+			$to = $email;
+			$headers = "MIME-Version: 1.0"."\r\n";
+				$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
+				$headers .= 'From: Technagers <info@technagers.com>'."\r\n";
+				
+																				
+			mail($to, $subject, $message, $headers);
+
+			//please comment die(); after checking	
+			//echo $message;
+		}
+
+		echo "<br/> Message Sent";
+	}
+?>
                         </form>
                     </div>
                 </div>

@@ -160,15 +160,14 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <button class="theme-btn btn-style-one" name="submit">
+                                    <button class="theme-btn btn-style-one" name="submit"> 
                                         <i class="btn-curve"></i>
-                                        <input class="btn-title" type="submit"  value="Submit">
-                                        <!-- <span class="btn-title">Submit</span> -->
+                                        <span class="btn-title">Submit</span>
                                     </button>
                                 </div>
                             </div>
                             <?php
-                            
+
 	include 'db/db_connect.php';
 
 	if (isset($_POST['submit'])) 
@@ -179,56 +178,46 @@
 		$quotation_company = !empty($_POST['quotation_company']) ? trim($_POST['quotation_company']) : null;
 		$quotation_website = !empty($_POST['quotation_website']) ? trim($_POST['quotation_website']) : null;
 		$quotation_budget = !empty($_POST['quotation_budget']) ? trim($_POST['quotation_budget']) : null;
-		$quotation_website = !empty($_POST['quotation_website']) ? trim($_POST['quotation_website']) : null;
 		$quotation_address = !empty($_POST['quotation_address']) ? trim($_POST['quotation_address']) : null;
 		$quotation_message = !empty($_POST['quotation_message']) ? trim($_POST['quotation_message']) : null;
 
 		
-		echo $quotation_username."<br/>";
-		echo $quotation_email."<br/>"; 
-		echo $quotation_phone_number."<br/>"; 
-		echo $quotation_company."<br/>"; 
-		echo $quotation_website."<br/>";
-		echo $quotation_budget."<br/>";
-		echo $quotation_website."<br/>";
-		echo $quotation_message."<br/>";
+		// echo $quotation_username."<br/>";
+		// echo $quotation_email."<br/>"; 
+		// echo $quotation_phone_number."<br/>"; 
+		// echo $quotation_company."<br/>"; 
+		// echo $quotation_website."<br/>";
+		// echo $quotation_budget."<br/>";
+		// echo $quotation_website."<br/>";
+		// echo $quotation_message."<br/>";
 
 		//Prepare our INSERT statement.
 
 
 		$sql = "INSERT INTO 
-		 			visitor (username, email, phone, subject, message) 
+		 			quotation_form (quotation_username, quotation_email, quotation_phone_number, quotation_company, quotation_website, quotation_budget, quotation_address, quotation_message) 
 				VALUES 
-					(:username, :email, :phone, :subject, :message)";
+					(:quotation_username, :quotation_email, :quotation_phone_number, :quotation_company, :quotation_website, :quotation_budget, :quotation_address, :quotation_message)";
 
 		$stmt = $conn->prepare($sql);
 
 		//Bind our variables.
-		$stmt->bindValue(':username', $username);
-		$stmt->bindValue(':email', $email);
-		$stmt->bindValue(':phone', $phone);
-		$stmt->bindValue(':subject', $subject);
-		$stmt->bindValue(':message', $message);
+		$stmt->bindValue(':quotation_username', $quotation_username);
+		$stmt->bindValue(':quotation_email', $quotation_email);
+		$stmt->bindValue(':quotation_phone_number', $quotation_phone_number);
+		$stmt->bindValue(':quotation_company', $quotation_company);
+		$stmt->bindValue(':quotation_website', $quotation_website);
+		$stmt->bindValue(':quotation_budget', $quotation_budget);
+		$stmt->bindValue(':quotation_address', $quotation_address);
+		$stmt->bindValue(':quotation_message', $quotation_message);
 
 		//Execute the statement and insert the new account.
 		$result = $stmt->execute();
 		
 		
-		if($result > 0)
-		{
-			$to = $email;
-			$headers = "MIME-Version: 1.0"."\r\n";
-				$headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
-				$headers .= 'From: Technagers <info@technagers.com>'."\r\n";
-				
-																				
-			mail($to, $subject, $message, $headers);
+		
 
-			//please comment die(); after checking	
-			//echo $message;
-		}
-
-		echo "<br/> Message Sent";
+		echo "<br/> Submitted Successfully";
 	}
 ?>
                         </form>

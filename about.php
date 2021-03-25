@@ -72,8 +72,7 @@
                             <div class="cap-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div class="cap-inner">
                                     <h5>Technagers are committed to trading quality operating system around the world.</h5>
-                                    <div class="more-link"><a href="about.php"><span
-                                                class="fa fa-angle-right"></span></a></div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -85,8 +84,7 @@
                             <div class="cap-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="cap-inner">
                                     <h5>We create innovative and imaginative items that give add up to communication and data arrangements.</h5>
-                                    <div class="more-link"><a class="theme-btn" href="about.php"><span
-                                                class="fa fa-angle-right"></span></a></div>
+                                   
                                 </div>
                             </div>
                         </div>

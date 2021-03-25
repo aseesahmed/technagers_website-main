@@ -16,13 +16,15 @@
 
                         <!-- Main Menu -->
                         <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li><a href="index.php">Home</a></li>
+                                    <li><a href="about.php">About Us</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="portfolio.php">Portfolio</a></li>
-                                    <!-- <li><a href="about.html">About Us</a></li>
-                                    <li class="dropdown"><a href="team.html">Pages</a>
+                                    
+                                    <!-- <li class="dropdown"><a href="team.html">Pages</a>
                                         <ul>
                                             <li><a href="pricing.html">Our Pricing <span>new</span></a></li>
                                             <li><a href="coming-soon.html">Coming Soon <span>new</span></a></li>
@@ -67,8 +69,8 @@
                                             <li><a href="blog-grid.html">Blog Grid View</a></li>
                                             <li><a href="blog-single.html">Blog Single</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li> -->
+                                    </li>-->
+                                    <li><a href="contact.php">Contact</a></li> 
                                 </ul>
                             </div>
                         </nav>
@@ -101,3 +103,63 @@
             <!--End Header Upper-->
 
         </header>
+        
+<!-- Main Header -->
+<header class="main-header header-style-one">
+
+    <!-- Header Upper -->
+    <div class="header-upper">
+        <div class="inner-container clearfix">
+            <!--Logo-->
+            <div class="logo-box">
+                <div class="logo"><a href="index.php" title="Technagers - IT Services | Bussiness Solutions"><img
+                                    src="images/logo.png" id="thm-logo" alt="Technagers - IT Services | Bussiness Solutions"
+                                    title="Technagers - IT Services | Bussiness Solutions"></a></div>
+            </div>
+            <div class="nav-outer clearfix">
+                <!--Mobile Navigation Toggler-->
+                <div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span><span
+                        class="txt">Menu</span></div>
+
+                <!-- Main Menu -->
+                <nav class="main-menu navbar-expand-md navbar-light">
+                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                        <ul class="navigation clearfix">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="portfolio.php">Portfolio</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="other-links clearfix">
+                <!-- cart btn 
+                <div class="cart-btn">
+                    <a href="cart.html" class="theme-btn cart-toggler"><span
+                            class="flaticon-shopping-cart"></span></a>
+                </div>-->
+                <!--Search Btn
+                <div class="search-btn">
+                    <button type="button" class="theme-btn search-toggler"><span
+                            class="flaticon-loupe"></span></button>
+                </div>
+                <div class="link-box">
+                    <div class="call-us">
+                        <a class="link" href="tel:6668880000">
+                            <span class="icon"></span>
+                            <span class="sub-text">Call Anytime</span>
+                            <span class="number">666 888 0000</span>
+                        </a>
+                    </div>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+    <!--End Header Upper-->
+
+</header>
+<!-- End Main Header -->

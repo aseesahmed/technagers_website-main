@@ -34,7 +34,7 @@
                                     <h1>Technagers</h1>
 									<div class="sub-title">The Technology Managers | IT Services | Business Solutions</div>
                                     <div class="link-box">
-                                        <a class="theme-btn btn-style-one" href="about.html">
+                                        <a class="theme-btn btn-style-one" href="#">
                                             <i class="btn-curve"></i>
                                             <!--<span class="btn-title">Discover More</span>-->
                                         </a>
@@ -59,7 +59,7 @@
                                     <h1 style="font-size: 80px;">WE KNOW HOW TO<br>
                                     MANAGE IT SMARTLY</h1>
                                     <div class="link-box">
-                                        <a class="theme-btn btn-style-one" href="about.html">
+                                        <a class="theme-btn btn-style-one" href="#">
                                             <i class="btn-curve"></i>
                                             <span class="btn-title">Discover More</span>
                                         </a>

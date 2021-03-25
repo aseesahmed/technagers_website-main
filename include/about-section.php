@@ -30,7 +30,7 @@
                                 <div class="since"><span class="txt">Since <br>2018</span></div>
                             </div>
                             <div class="link-box">
-                                <a class="theme-btn btn-style-one" href="about.html">
+                                <a class="theme-btn btn-style-one" href="#">
                                     <i class="btn-curve"></i>
                                     <span class="btn-title">Discover More</span>
                                 </a>

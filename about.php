@@ -16,9 +16,9 @@
 
      
         <!-- Preloader -->
-        <div class="preloader">
-            <div class="icon"></div>
-        </div>
+        <!--<div class="preloader">-->
+        <!--    <div class="icon"></div>-->
+        <!--</div>-->
 
         <!-- Main Header -->
         <header class="main-header header-style-one">

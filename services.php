@@ -8,6 +8,7 @@
     <meta name="title" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="description" content="Technagers | Technology Managers | IT Services | Business Solutions">
     <meta name="keywords" content="software, website, web design, ecommerce, web development, website solution, software management, finance software, ecommerce sites, mobile app development software, secure software, application software, app making software, business development, software solution provider, graphic, graphic designing, logo, logo design, html, website banner, seo, search engine optimization, content writing, technology services, technology solutions, technology skills, technology tools, android development, php development, laravel development, codeignitor development, technology applications, website development, website engineering">
+    <link rel="icon" href="logo/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
@@ -16,9 +17,9 @@
 
        
         <!-- Preloader -->
-        <div class="preloader">
-            <div class="icon"></div>
-        </div>
+        <!--<div class="preloader">-->
+        <!--    <div class="icon"></div>-->
+        <!--</div>-->
 
         <!-- Main Header -->
         <header class="main-header header-style-one">
@@ -203,6 +204,7 @@
                                             <div class="text">
                                                 <p>We clearly understand that all customer landscapes are not of same kind. That’s why Technagers sourcing methodology encompasses a clear solution especially crafted to address the clients' issues. We offer a phased approach towards your business drivers and help IT organizations to align their goals towards the overall vision of the business.</p>
                                                 <p class="theme_color">We plan & create versatile apps for everybody no matter what industry or company you have a place to.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -226,6 +228,7 @@
                                             <div class="text">
                                                 <p>Together with planning and creating your web nearness, we propose business-oriented arrangements that fit your needs and talk volumes of your values as a brand. With experienced web designers and advanced artisans, you get a state-of-the-art arrangement with a cutting-edge offer that locks in more individuals online. Use effective innovations and strong design to construct a web arrangement that fulfills your needs beneath bundled web improvement administrations.</p>
                                                 <p class="theme_color">Client's expectations by going beyond software to provide perfect Web solutions that transform data into knowledge, enabling them to solve their problems.</p>
+                                               
                                             </div>
                                         </div>
                                     </div>
@@ -244,7 +247,7 @@
                 <div class="inner clearfix">
                     <h2>We’re Ready to Bring Bigger <br>& Stronger Projects</h2>
                     <div class="link-box">
-                        <a class="theme-btn btn-style-two" href="contact.php">
+                        <a class="theme-btn btn-style-two" href="about.html">
                             <i class="btn-curve"></i>
                             <span class="btn-title">Contact with us</span>
                         </a>
